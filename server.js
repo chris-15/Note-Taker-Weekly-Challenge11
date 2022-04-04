@@ -6,7 +6,7 @@ const path = require('path');
 const htmlRoutes = require('./routes/htmlRoutes');
 
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3111;
 const app= express();
 
 // this makes sure the js and css files load with the html
