@@ -5,7 +5,10 @@ const path = require("path");
 const apiRoutes = require("./routes/apiRoutes")
 const htmlRoutes = require("./routes/htmlRoutes");
 
-const {notes} = require("./db/db.json");
+// require package for uuid which creates random unique id 
+const { v4: uuidv4 } = require('uuid');
+
+const notes = require("./db/db.json");
 
 const PORT = process.env.PORT || 3111;
 const app = express();
