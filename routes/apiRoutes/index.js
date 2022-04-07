@@ -1,3 +1,4 @@
+// listing all required packages or files needed 
 const fs = require("fs");
 const path = require("path");
 const router = require("express").Router();
@@ -47,7 +48,7 @@ router.post("/notes", (req, res) => {
     const newNotes = createNewNote(req.body, notes);
     res.json(newNotes);
   }
-  console.log("posted")
+  console.log("posted");
 });
 
 //function to delete note

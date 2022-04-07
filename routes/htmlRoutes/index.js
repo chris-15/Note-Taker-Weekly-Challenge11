@@ -1,4 +1,4 @@
-//package or file requirements
+// listing all required packages or files needed 
 const path = require("path");
 const router = require("express").Router();
 
